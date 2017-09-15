@@ -1,0 +1,29 @@
+#leftdiv, #rightdiv{
+    padding-left: 10px
+}
+#leftdiv{
+    border-left:  1px dashed #000;
+    float:right;
+    width: 240px;
+    /*position: absolute;*/
+    height: 100%;
+    overflow: auto;
+}
+#rightdiv{
+    border: none;
+    float:left;
+    /*width: 70%*/
+}
+
+.list_item{
+    background-color: thistle;
+    line-height: 50px;
+    border-bottom: 1px solid #090;
+    padding-left: 20px;
+    box-shadow: 2px 4px 6px #000;
+    margin-bottom: 2px
+
+
+}
+
+html,body{height:100%;overflow:hidden;}   
